@@ -2,6 +2,7 @@
 
 using namespace std;
 
+int fibo_memo[50] = {0};
 long long fibo_long_memo[100] = { 0, 1 };
 
 long long Fibo_While(int n)
@@ -12,8 +13,6 @@ long long Fibo_While(int n)
 	}
 	return fibo_long_memo[n];
 }
-
-int fibo_memo[50] = {0};
 
 int Fibo_Dynamic(int n)
 {
