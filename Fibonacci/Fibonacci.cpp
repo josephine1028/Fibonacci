@@ -3,7 +3,8 @@
 using namespace std;
 
 int fibo_memo[50] = {0};
-long long fibo_long_memo[100] = { 0, 1 };
+
+long long fibo_long_memo[100] = { 0, 1 };	//초기화
 
 long long Fibo_While(int n)
 {
